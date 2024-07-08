@@ -17,8 +17,8 @@ main section h2 {
 }
 
 .img {
-    width: 330px;
-    height: 330px;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -111,6 +111,8 @@ input[type="submit"]:hover {
     border: 5px solid transparent;
     border-radius: 10px;
     transition: transform 0.5s ease;
+    width: 25vw;
+    height: 40vh;
 }
 
 .divisor:hover {
@@ -255,6 +257,19 @@ li:hover {
 
     input[type="submit"] {
         padding: 8px 16px;
+    }
+
+    .articulo {
+        display: block;
+    }
+
+    .divisor {
+        display: flex;
+        width: 70%;
+    }
+
+    .section-masc {
+        width: 80%;
     }
 }
 
