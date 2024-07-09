@@ -4,16 +4,20 @@
     margin: 0;
 }
 
-h2 {
+h2, main section h2 {
     text-align: center;
 }
 
-main section h2 {
+.contenedor-2, .section-fem, .section-masc {
     text-align: center;
 }
 
-.contenedor-2 {
-    text-align: center;
+.section-fem {
+    padding-bottom: 100px;
+}
+
+.section-masc {
+    padding-top: 100px;
 }
 
 .img {
@@ -33,16 +37,6 @@ footer {
 footer img {
     height: 50px;
     width: 50px;
-}
-
-.section-fem {
-    text-align: center;
-    padding-bottom: 100px;
-}
-
-.section-masc {
-    text-align: center;
-    padding-top: 100px;
 }
 
 .p-font {
@@ -171,7 +165,7 @@ li {
     margin-right: 20px;
 }
 
-li:hover {
+li:hover, .navbar-hover:hover, .img-galeria:hover {
     transform: scale(1.2);
     transition: 0.3s;
 }
@@ -181,10 +175,6 @@ li:hover {
     margin-bottom: 3px;
 }
 
-.navbar-hover:hover {
-    transform: scale(1.2);
-    transition: 0.3s;
-}
 .custom-navbar {
     background-color: #FFAFCC;
 }
@@ -194,11 +184,6 @@ li:hover {
     height: 100%;
     transition: transform 0.5s ease;
     border: 2px solid black;
-}
-
-.img-galeria:hover {
-    transform: scale(1.3);
-    transition: 0.3s;
 }
 
 .separacion-filas {
@@ -238,8 +223,8 @@ li:hover {
 }
 
 .collapse-content {
-    height: 300px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
