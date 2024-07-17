@@ -1,0 +1,3 @@
+Hola, me llamo Nicolas, tengo 17 años e hice este proyecto a traves de un curso de desarrollo web en CoderHouse.
+El proyecto trata de un e-commerce de una tienda de ropa, de venta de indumentaria. Surgió principalmente por mi abuela, ella siempre quizo tener un local fisico y por distintas cosas, aún no lo ha hecho, entonces se me ocurrio hacer esta web en su honor.
+Para este pequeño proyecto utilice principalmente HTML5 y CSS. Además agregue algunos componentes de Bootstrap y trabaje con SASS. También, el proyecto esta subido a un repositorio de github con ayuda de git.
