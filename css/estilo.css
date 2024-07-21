@@ -258,6 +258,11 @@ li:hover, li .navbar-hover:hover, li .img-galeria:hover {
   background-color: #FFAFCC;
 }
 
+.lim-navbar {
+  max-height: 150px;
+  margin-left: 150px;
+}
+
 .img-galeria {
   width: 100%;
   height: 100%;
