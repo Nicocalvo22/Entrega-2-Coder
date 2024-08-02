@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+    .form {
+      padding: 15px;
+    }
+  
+    .form .form-2 fieldset legend {
+      font-size: 1.2em;
+    }
+  
+    .form .form-2 fieldset input[type="text"],
+    .form .form-2 fieldset input[type="email"] {
+      padding: 8px;
+    }
+  
+    .form .form-2 fieldset input[type="submit"] {
+      padding: 8px 16px;
+    }
+  
+    .articulo {
+      display: block;
+    }
+  
+    .divisor {
+      display: flex;
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form {
+      padding: 10px;
+    }
+  
+    .form .form-2 fieldset legend {
+      font-size: 1em;
+    }
+  
+    .form .form-2 fieldset input[type="text"],
+    .form .form-2 fieldset input[type="email"] {
+      padding: 6px;
+    }
+  
+    .form .form-2 fieldset input[type="submit"] {
+      padding: 6px 12px;
+    }
+  
+    .divisor {
+      width: 100%;
+      height: auto;
+      margin: 10px 0;
+  
+      span {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+        word-wrap: break-word;
+      }
+    }
+  
+    footer img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    header .logo {
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer {
+      display: block;
+    }
+  }
